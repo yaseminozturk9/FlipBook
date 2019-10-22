@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js demo-2">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>3D Book Showcase</title>
+		<meta name="description" content="3D Book Showcase with CSS 3D Transforms" />
+		<meta name="keywords" content="3d transforms, css3 3d, book, jquery, open book, css transitions" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component2.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<!-- Codrops top bar -->
+			<div class="codrops-top clearfix">
+				<a href="http://tympanus.net/Tutorials/ItemSlider/"><strong>&laquo; Previous Demo: </strong>Simple Item Slider</a>
+				<span class="right"><a href="http://tympanus.net/codrops/?p=13406"><strong>Back to the Codrops Article</strong></a></span>
+			</div><!--/ Codrops top bar -->
+			<header class="clearfix">
+				<h1>3D Book Showcase</h1>	
+				<nav class="codrops-demos">
+					<a href="index.html">Demo 1</a>
+					<a class="current-demo" href="index2.html">Demo 2</a>
+				</nav>
+				<span class="support-note">Best viewed in WebKit browsers</span>
+			</header>
+			<div class="main">
+				<ul id="bk-list" class="bk-list clearfix">
+					<li>
+						<div class="bk-book book-1">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Jostein Gaarder</span>
+										<span>Sofie'nin Dünyası</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content bk-content-current">
+									<h3>&numsp;&numsp;&numsp;CENNET BAHÇESİ</h3>
+									<p><b>...eninde sonunda herhangi bir zaman herhangi bir şey, boşluktan ve hiçlikten çıkmış olmalı...</b></p>
+                                    <p>Sofie Amundsen okuldan eve dönüyordu. Yolun bir kısmını Jorunn ile birlikte yürümüştü. Robotlar hakkında konuşmuşlardı hep Jorunn'e kalırsa, insan beyni karmaşık bir bilgisayardan ibaretti. Sofie pek emin değildi bundan. İnsanın bir makineden daha fazla bir şey olması gerekmez miydi?</p>
+								</div>
+								<div class="bk-content">
+									<p>Süpermarketin orada yolları ayrılıyordu. Bahçeli evlerle dolu bir dış mahallenin sonunda oturan Sofie'nin yolu Jorunn'unkinin iki katıydı neredeyse. Sanki dünyanın öbür ucundaydı evi, bahçelerinin ardında başka bir ev yoktu, orman vardı sadece.</p>
+								</div>
+								<div class="bk-content">
+									<p>Sofie Kloverveien'e saptı, sonuna kadar yürüyüp keskin bir viraj aldı. "Kaptan Viraajı" denilen yerdi burası. Cumartesi ve pazar günleri dışında hemen hiç kimseye rastlanmazdı.</p>
+                                    <p>Mayısın ilk günlerinden biriydi. Bazı bahçelerde meyve ağaçlarının dibindeki nergisler parlak sarı çiçeklerini açmıştı bile. Huş ağaçlarından incecik yeşil tüller sarkıyordu.</p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<p>15. yaş gününü kutlamaya hazırlanan Sofie, posta kutusunda, "Kimsin sen?" yazılı bir kağıt bulur. Bu soruyu, diğer sorular ve günümüze kadar uzanan bir felsefe kursu takip eder.<br>
+                                Kendine has kurgusu ve şaşırtmacalarıyla, Jostein Gaarder, 15 yaş ve üstü gençlere sadece kuru bir felsefe tarihi sunmak değil, aynı zamanda hayatı anlamaya yönelik sorular sormanın yollarını açar.<br>Çağımız bölümünde şöyle diyor yazar:
+                                "Bütün gerçek filozofların gözleri hep açık olmalı. Hiç beyaz karga görmemiş olsak da, aramayı sürdürmeliyiz. Günün birinde, beni gibi bir şüpheci bile daha önce inanmak istemediği bir olguyu kabul etmek zorunda kalabilir. Bu olasılığın kapısını açık tutmasam, dogmatik biri olurdum. Gerçek bir filozof olmazdım o zaman."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Jostein Gaarder</span>
+									<span>Sofie'nin Dünyası</span>
+								</h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+					<li>
+						<div class="bk-book book-2">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Kemal Sayar</span>
+										<span>Sufi Psikolojisi</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content">
+									<h3>Geçmişin Bilgeliği Bugünün Psikoterapileriyle Buluşabilir Mi?</h3>
+									<p>Anomi, anlamsızlık hastalığı olarak tanımlanabilir. Derinden hissedilen bir amacın yokluğu, kişinin çevresine ve dostlarına yabancılaşması, anominin özelliklerindendir.</p>
+								</div>
+								<div class="bk-content">
+									<p>Psikiyatrinin kimi yazarlara göre en önemli sorunlarından biri, hastalarına anlam sağlayacak bir teorik çerçeveden yoksun oluşudur. Özellikle nörotik hastaların, içinden kendilerine baktıkları kavramsal bağlam, onlara ne anlam, ne yön, ne de umut sunabilmektedir.</p>
+								</div>
+								<div class="bk-content bk-content-current">
+									<p>Bu bağlam, düzenli, mekanistik ve bir örnek evren düşüncesine yaslanan modern bilimsel dünya görüşünden kaynaklanır. Psikiyatri, anlamsızlık salgınına karşı bir reçete sunmaz ve insan gelişiminin modern süreçlerle akamete uğratılması konusunda da önerebileceği bir formül yoktur. </p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<p>Hakikat, milyonlarca yıl önce yeryüzüne düşmüş ve parçalara ayrılmış kocaman bir elmas gibidir. Her bir parçayı bulan, elmasın o parçadan ibaret olduğunu zanneder. Oysa hakikat daha büyüktür, bütündedir. Bilimlerin tümünde olduğu gibi psikolojide de hakikatin sadece bir kısmına hâkimiz. Disiplinlerin birbirinden öğrenecek çok şeyinin olduğu günümüzde, "ya bilim, ya maneviyat" tarzı bir indirgemecilik yerine, "hem o, hem de o" yaklaşımı daha doğru görünmekte. Ruhun bilgeliğine ulaşmak için, bilgeliğin ruhuna nüfuz etmemiz gerek. Unutmamalı ki "Her arayan bulamaz, bulanlar sadece arayanlardır."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Kemal Sayar</span>
+									<span>Sufi Psikolojisi</span>
+								</h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+					<li>
+						<div class="bk-book book-3">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Hasan Ali Toptaş</span>
+										<span>Heba</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content bk-content-current">
+									<h3>Anahtar</h3>
+									<p>Ziya kapıyı kilitledi ve elindeki anahtarı cebine koymadan, hızlı adımlarla asansöre doğru yürüdü. Koridorda bir tuhaflık vardı o sırada, ışıklar tavandan sarkan sarı toplar halinde her zamanki gibi sıra sıra yanıyordu ama ortalık biraz karanlıktı sanki. Hatta insanı hayrete düşürecek kadar da sessizdi.</p>
+								</div>
+								<div class="bk-content">
+									<p>Ne var ki pek uzun sürmedi, alt kattaki o kahverengi çelik kapılardan biri güm diye çarpılınca aniden yok oldu bu sessizlik. Kimin tarafından yapıldığı bilinmeyen tatlı bir şaka hızıyla, koridora kattığı genişliği de yanına alarak, neredeyse Ziya'ya göründüğü anda yok oldu. Hemen ardından, koca ağızlı bir çocuk sesi yükseldi merdiven boşluğundaki alacakaranlığın içinden.</p>
+								</div>
+								<div class="bk-content">
+									<p>Onun ardından simsiyah bir kadın çığlığı, onun ardından bir elektrik süpürgesinin oradan oraya gezinen sinir bozucu zırıltısı, onun ardından da nerede vınladığı kestirilemeyen tozlu bir matkap sesi yükseldi. Derken, duvarların gerisindeki duvarların gerisinden gelen gürültüler de katıldı bunlara. Hatta insana şehrin görüntülerini hatırlatan kadınlardan daha kalın uğultular da katıldı.</p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<img src="images/3.png" alt="cat"/>
+								<p>Heba bir çocukluk hatası gibi unutulan insanlığımızın, vicdan denen anahtarın, bir sınır boyunda gizlenenlerin, bir ömrü minnetle kaybedenlerin romanı. Heba; delinmiş bir uykunun ve onu bulanların hikâyesi...
+
+"Heba muhteşem ve merak uyandırıcı bir roman. Sanki dünyanın hiç bilmediğim bir yerine götürdü beni ve aslında her şeyin tanıdık olduğunu gösterdi aşk her yerde aşk, dost her yerde dost, ihanet her yerde ihanet."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Hasan Ali Toptaş</span>
+									<span>Heba</span>
+								</h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+					<li>
+						<div class="bk-book book-1">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Jostein Gaarder</span>
+										<span>Sofie'nin Dünyası</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content bk-content-current">
+									<h3>&numsp;&numsp;&numsp;CENNET BAHÇESİ</h3>
+									<p><b>...eninde sonunda herhangi bir zaman herhangi bir şey, boşluktan ve hiçlikten çıkmış olmalı...</b></p>
+                                    <p>Sofie Amundsen okuldan eve dönüyordu. Yolun bir kısmını Jorunn ile birlikte yürümüştü. Robotlar hakkında konuşmuşlardı hep Jorunn'e kalırsa, insan beyni karmaşık bir bilgisayardan ibaretti. Sofie pek emin değildi bundan. İnsanın bir makineden daha fazla bir şey olması gerekmez miydi?</p>
+								</div>
+								<div class="bk-content">
+									<p>Süpermarketin orada yolları ayrılıyordu. Bahçeli evlerle dolu bir dış mahallenin sonunda oturan Sofie'nin yolu Jorunn'unkinin iki katıydı neredeyse. Sanki dünyanın öbür ucundaydı evi, bahçelerinin ardında başka bir ev yoktu, orman vardı sadece.</p>
+								</div>
+								<div class="bk-content">
+									<p>Sofie Kloverveien'e saptı, sonuna kadar yürüyüp keskin bir viraj aldı. "Kaptan Viraajı" denilen yerdi burası. Cumartesi ve pazar günleri dışında hemen hiç kimseye rastlanmazdı.</p>
+                                    <p>Mayısın ilk günlerinden biriydi. Bazı bahçelerde meyve ağaçlarının dibindeki nergisler parlak sarı çiçeklerini açmıştı bile. Huş ağaçlarından incecik yeşil tüller sarkıyordu.</p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<p>15. yaş gününü kutlamaya hazırlanan Sofie, posta kutusunda, "Kimsin sen?" yazılı bir kağıt bulur. Bu soruyu, diğer sorular ve günümüze kadar uzanan bir felsefe kursu takip eder.<br>
+                                Kendine has kurgusu ve şaşırtmacalarıyla, Jostein Gaarder, 15 yaş ve üstü gençlere sadece kuru bir felsefe tarihi sunmak değil, aynı zamanda hayatı anlamaya yönelik sorular sormanın yollarını açar.<br>Çağımız bölümünde şöyle diyor yazar:
+                                "Bütün gerçek filozofların gözleri hep açık olmalı. Hiç beyaz karga görmemiş olsak da, aramayı sürdürmeliyiz. Günün birinde, beni gibi bir şüpheci bile daha önce inanmak istemediği bir olguyu kabul etmek zorunda kalabilir. Bu olasılığın kapısını açık tutmasam, dogmatik biri olurdum. Gerçek bir filozof olmazdım o zaman."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Jostein Gaarder</span>
+									<span>Sofie'nin Dünyası</span>
+								</h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+					<li>
+						<div class="bk-book book-2">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Kemal Sayar</span>
+										<span>Sufi Psikolojisi</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content">
+									<h3>Geçmişin Bilgeliği Bugünün Psikoterapileriyle Buluşabilir Mi?</h3>
+									<p>Anomi, anlamsızlık hastalığı olarak tanımlanabilir. Derinden hissedilen bir amacın yokluğu, kişinin çevresine ve dostlarına yabancılaşması, anominin özelliklerindendir.</p>
+								</div>
+								<div class="bk-content">
+									<p>Psikiyatrinin kimi yazarlara göre en önemli sorunlarından biri, hastalarına anlam sağlayacak bir teorik çerçeveden yoksun oluşudur. Özellikle nörotik hastaların, içinden kendilerine baktıkları kavramsal bağlam, onlara ne anlam, ne yön, ne de umut sunabilmektedir.</p>
+								</div>
+								<div class="bk-content bk-content-current">
+									<p>Bu bağlam, düzenli, mekanistik ve bir örnek evren düşüncesine yaslanan modern bilimsel dünya görüşünden kaynaklanır. Psikiyatri, anlamsızlık salgınına karşı bir reçete sunmaz ve insan gelişiminin modern süreçlerle akamete uğratılması konusunda da önerebileceği bir formül yoktur. </p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<p>Hakikat, milyonlarca yıl önce yeryüzüne düşmüş ve parçalara ayrılmış kocaman bir elmas gibidir. Her bir parçayı bulan, elmasın o parçadan ibaret olduğunu zanneder. Oysa hakikat daha büyüktür, bütündedir. Bilimlerin tümünde olduğu gibi psikolojide de hakikatin sadece bir kısmına hâkimiz. Disiplinlerin birbirinden öğrenecek çok şeyinin olduğu günümüzde, "ya bilim, ya maneviyat" tarzı bir indirgemecilik yerine, "hem o, hem de o" yaklaşımı daha doğru görünmekte. Ruhun bilgeliğine ulaşmak için, bilgeliğin ruhuna nüfuz etmemiz gerek. Unutmamalı ki "Her arayan bulamaz, bulanlar sadece arayanlardır."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Kemal Sayar</span>
+									<span>Sufi Psikolojisi</span>
+								</h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+					<li>
+						<div class="bk-book book-3">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Hasan Ali Toptaş</span>
+										<span>Heba</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content bk-content-current">
+									<h3>Anahtar</h3>
+									<p>Ziya kapıyı kilitledi ve elindeki anahtarı cebine koymadan, hızlı adımlarla asansöre doğru yürüdü. Koridorda bir tuhaflık vardı o sırada, ışıklar tavandan sarkan sarı toplar halinde her zamanki gibi sıra sıra yanıyordu ama ortalık biraz karanlıktı sanki. Hatta insanı hayrete düşürecek kadar da sessizdi.</p>
+								</div>
+								<div class="bk-content">
+									<p>Ne var ki pek uzun sürmedi, alt kattaki o kahverengi çelik kapılardan biri güm diye çarpılınca aniden yok oldu bu sessizlik. Kimin tarafından yapıldığı bilinmeyen tatlı bir şaka hızıyla, koridora kattığı genişliği de yanına alarak, neredeyse Ziya'ya göründüğü anda yok oldu. Hemen ardından, koca ağızlı bir çocuk sesi yükseldi merdiven boşluğundaki alacakaranlığın içinden.</p>
+								</div>
+								<div class="bk-content">
+									<p>Onun ardından simsiyah bir kadın çığlığı, onun ardından bir elektrik süpürgesinin oradan oraya gezinen sinir bozucu zırıltısı, onun ardından da nerede vınladığı kestirilemeyen tozlu bir matkap sesi yükseldi. Derken, duvarların gerisindeki duvarların gerisinden gelen gürültüler de katıldı bunlara. Hatta insana şehrin görüntülerini hatırlatan kadınlardan daha kalın uğultular da katıldı.</p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<img src="images/3.png" alt="cat"/>
+								<p>Heba bir çocukluk hatası gibi unutulan insanlığımızın, vicdan denen anahtarın, bir sınır boyunda gizlenenlerin, bir ömrü minnetle kaybedenlerin romanı. Heba; delinmiş bir uykunun ve onu bulanların hikâyesi...
+
+"Heba muhteşem ve merak uyandırıcı bir roman. Sanki dünyanın hiç bilmediğim bir yerine götürdü beni ve aslında her şeyin tanıdık olduğunu gösterdi aşk her yerde aşk, dost her yerde dost, ihanet her yerde ihanet."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Hasan Ali Toptaş</span>
+									<span>Heba</span>
+                                </h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+					<li>
+						<div class="bk-book book-1">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Jostein Gaarder</span>
+										<span>Sofie'nin Dünyası</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content bk-content-current">
+									<h3>&numsp;&numsp;&numsp;CENNET BAHÇESİ</h3>
+									<p><b>...eninde sonunda herhangi bir zaman herhangi bir şey, boşluktan ve hiçlikten çıkmış olmalı...</b></p>
+                                    <p>Sofie Amundsen okuldan eve dönüyordu. Yolun bir kısmını Jorunn ile birlikte yürümüştü. Robotlar hakkında konuşmuşlardı hep Jorunn'e kalırsa, insan beyni karmaşık bir bilgisayardan ibaretti. Sofie pek emin değildi bundan. İnsanın bir makineden daha fazla bir şey olması gerekmez miydi?</p>
+								</div>
+								<div class="bk-content">
+									<p>Süpermarketin orada yolları ayrılıyordu. Bahçeli evlerle dolu bir dış mahallenin sonunda oturan Sofie'nin yolu Jorunn'unkinin iki katıydı neredeyse. Sanki dünyanın öbür ucundaydı evi, bahçelerinin ardında başka bir ev yoktu, orman vardı sadece.</p>
+								</div>
+								<div class="bk-content">
+									<p>Sofie Kloverveien'e saptı, sonuna kadar yürüyüp keskin bir viraj aldı. "Kaptan Viraajı" denilen yerdi burası. Cumartesi ve pazar günleri dışında hemen hiç kimseye rastlanmazdı.</p>
+                                    <p>Mayısın ilk günlerinden biriydi. Bazı bahçelerde meyve ağaçlarının dibindeki nergisler parlak sarı çiçeklerini açmıştı bile. Huş ağaçlarından incecik yeşil tüller sarkıyordu.</p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<p>15. yaş gününü kutlamaya hazırlanan Sofie, posta kutusunda, "Kimsin sen?" yazılı bir kağıt bulur. Bu soruyu, diğer sorular ve günümüze kadar uzanan bir felsefe kursu takip eder.<br>
+                                Kendine has kurgusu ve şaşırtmacalarıyla, Jostein Gaarder, 15 yaş ve üstü gençlere sadece kuru bir felsefe tarihi sunmak değil, aynı zamanda hayatı anlamaya yönelik sorular sormanın yollarını açar.<br>Çağımız bölümünde şöyle diyor yazar:
+                                "Bütün gerçek filozofların gözleri hep açık olmalı. Hiç beyaz karga görmemiş olsak da, aramayı sürdürmeliyiz. Günün birinde, beni gibi bir şüpheci bile daha önce inanmak istemediği bir olguyu kabul etmek zorunda kalabilir. Bu olasılığın kapısını açık tutmasam, dogmatik biri olurdum. Gerçek bir filozof olmazdım o zaman."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Jostein Gaarder</span>
+									<span>Sofie'nin Dünyası</span>
+								</h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+					<li>
+						<div class="bk-book book-2">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Kemal Sayar</span>
+										<span>Sufi Psikolojisi</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content">
+									<h3>Geçmişin Bilgeliği Bugünün Psikoterapileriyle Buluşabilir Mi?</h3>
+									<p>Anomi, anlamsızlık hastalığı olarak tanımlanabilir. Derinden hissedilen bir amacın yokluğu, kişinin çevresine ve dostlarına yabancılaşması, anominin özelliklerindendir.</p>
+								</div>
+								<div class="bk-content">
+									<p>Psikiyatrinin kimi yazarlara göre en önemli sorunlarından biri, hastalarına anlam sağlayacak bir teorik çerçeveden yoksun oluşudur. Özellikle nörotik hastaların, içinden kendilerine baktıkları kavramsal bağlam, onlara ne anlam, ne yön, ne de umut sunabilmektedir.</p>
+								</div>
+								<div class="bk-content bk-content-current">
+									<p>Bu bağlam, düzenli, mekanistik ve bir örnek evren düşüncesine yaslanan modern bilimsel dünya görüşünden kaynaklanır. Psikiyatri, anlamsızlık salgınına karşı bir reçete sunmaz ve insan gelişiminin modern süreçlerle akamete uğratılması konusunda da önerebileceği bir formül yoktur. </p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<p>Hakikat, milyonlarca yıl önce yeryüzüne düşmüş ve parçalara ayrılmış kocaman bir elmas gibidir. Her bir parçayı bulan, elmasın o parçadan ibaret olduğunu zanneder. Oysa hakikat daha büyüktür, bütündedir. Bilimlerin tümünde olduğu gibi psikolojide de hakikatin sadece bir kısmına hâkimiz. Disiplinlerin birbirinden öğrenecek çok şeyinin olduğu günümüzde, "ya bilim, ya maneviyat" tarzı bir indirgemecilik yerine, "hem o, hem de o" yaklaşımı daha doğru görünmekte. Ruhun bilgeliğine ulaşmak için, bilgeliğin ruhuna nüfuz etmemiz gerek. Unutmamalı ki "Her arayan bulamaz, bulanlar sadece arayanlardır."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Kemal Sayar</span>
+									<span>Sufi Psikolojisi</span>
+								</h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+					<li>
+						<div class="bk-book book-3">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Hasan Ali Toptaş</span>
+										<span>Heba</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content bk-content-current">
+									<h3>Anahtar</h3>
+									<p>Ziya kapıyı kilitledi ve elindeki anahtarı cebine koymadan, hızlı adımlarla asansöre doğru yürüdü. Koridorda bir tuhaflık vardı o sırada, ışıklar tavandan sarkan sarı toplar halinde her zamanki gibi sıra sıra yanıyordu ama ortalık biraz karanlıktı sanki. Hatta insanı hayrete düşürecek kadar da sessizdi.</p>
+								</div>
+								<div class="bk-content">
+									<p>Ne var ki pek uzun sürmedi, alt kattaki o kahverengi çelik kapılardan biri güm diye çarpılınca aniden yok oldu bu sessizlik. Kimin tarafından yapıldığı bilinmeyen tatlı bir şaka hızıyla, koridora kattığı genişliği de yanına alarak, neredeyse Ziya'ya göründüğü anda yok oldu. Hemen ardından, koca ağızlı bir çocuk sesi yükseldi merdiven boşluğundaki alacakaranlığın içinden.</p>
+								</div>
+								<div class="bk-content">
+									<p>Onun ardından simsiyah bir kadın çığlığı, onun ardından bir elektrik süpürgesinin oradan oraya gezinen sinir bozucu zırıltısı, onun ardından da nerede vınladığı kestirilemeyen tozlu bir matkap sesi yükseldi. Derken, duvarların gerisindeki duvarların gerisinden gelen gürültüler de katıldı bunlara. Hatta insana şehrin görüntülerini hatırlatan kadınlardan daha kalın uğultular da katıldı.</p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<img src="images/3.png" alt="cat"/>
+								<p>Heba bir çocukluk hatası gibi unutulan insanlığımızın, vicdan denen anahtarın, bir sınır boyunda gizlenenlerin, bir ömrü minnetle kaybedenlerin romanı. Heba; delinmiş bir uykunun ve onu bulanların hikâyesi...
+
+"Heba muhteşem ve merak uyandırıcı bir roman. Sanki dünyanın hiç bilmediğim bir yerine götürdü beni ve aslında her şeyin tanıdık olduğunu gösterdi aşk her yerde aşk, dost her yerde dost, ihanet her yerde ihanet."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Hasan Ali Toptaş</span>
+									<span>Heba</span>
+								</h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+					<li>
+						<div class="bk-book book-1">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Jostein Gaarder</span>
+										<span>Sofie'nin Dünyası</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content bk-content-current">
+									<h3>&numsp;&numsp;&numsp;CENNET BAHÇESİ</h3>
+									<p><b>...eninde sonunda herhangi bir zaman herhangi bir şey, boşluktan ve hiçlikten çıkmış olmalı...</b></p>
+                                    <p>Sofie Amundsen okuldan eve dönüyordu. Yolun bir kısmını Jorunn ile birlikte yürümüştü. Robotlar hakkında konuşmuşlardı hep Jorunn'e kalırsa, insan beyni karmaşık bir bilgisayardan ibaretti. Sofie pek emin değildi bundan. İnsanın bir makineden daha fazla bir şey olması gerekmez miydi?</p>
+								</div>
+								<div class="bk-content">
+									<p>Süpermarketin orada yolları ayrılıyordu. Bahçeli evlerle dolu bir dış mahallenin sonunda oturan Sofie'nin yolu Jorunn'unkinin iki katıydı neredeyse. Sanki dünyanın öbür ucundaydı evi, bahçelerinin ardında başka bir ev yoktu, orman vardı sadece.</p>
+								</div>
+								<div class="bk-content">
+									<p>Sofie Kloverveien'e saptı, sonuna kadar yürüyüp keskin bir viraj aldı. "Kaptan Viraajı" denilen yerdi burası. Cumartesi ve pazar günleri dışında hemen hiç kimseye rastlanmazdı.</p>
+                                    <p>Mayısın ilk günlerinden biriydi. Bazı bahçelerde meyve ağaçlarının dibindeki nergisler parlak sarı çiçeklerini açmıştı bile. Huş ağaçlarından incecik yeşil tüller sarkıyordu.</p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<p>15. yaş gününü kutlamaya hazırlanan Sofie, posta kutusunda, "Kimsin sen?" yazılı bir kağıt bulur. Bu soruyu, diğer sorular ve günümüze kadar uzanan bir felsefe kursu takip eder.<br>
+                                Kendine has kurgusu ve şaşırtmacalarıyla, Jostein Gaarder, 15 yaş ve üstü gençlere sadece kuru bir felsefe tarihi sunmak değil, aynı zamanda hayatı anlamaya yönelik sorular sormanın yollarını açar.<br>Çağımız bölümünde şöyle diyor yazar:
+                                "Bütün gerçek filozofların gözleri hep açık olmalı. Hiç beyaz karga görmemiş olsak da, aramayı sürdürmeliyiz. Günün birinde, beni gibi bir şüpheci bile daha önce inanmak istemediği bir olguyu kabul etmek zorunda kalabilir. Bu olasılığın kapısını açık tutmasam, dogmatik biri olurdum. Gerçek bir filozof olmazdım o zaman."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Jostein Gaarder</span>
+									<span>Sofie'nin Dünyası</span>
+								</h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+					<li>
+						<div class="bk-book book-2">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Kemal Sayar</span>
+										<span>Sufi Psikolojisi</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content">
+									<h3>Geçmişin Bilgeliği Bugünün Psikoterapileriyle Buluşabilir Mi?</h3>
+									<p>Anomi, anlamsızlık hastalığı olarak tanımlanabilir. Derinden hissedilen bir amacın yokluğu, kişinin çevresine ve dostlarına yabancılaşması, anominin özelliklerindendir.</p>
+								</div>
+								<div class="bk-content">
+									<p>Psikiyatrinin kimi yazarlara göre en önemli sorunlarından biri, hastalarına anlam sağlayacak bir teorik çerçeveden yoksun oluşudur. Özellikle nörotik hastaların, içinden kendilerine baktıkları kavramsal bağlam, onlara ne anlam, ne yön, ne de umut sunabilmektedir.</p>
+								</div>
+								<div class="bk-content bk-content-current">
+									<p>Bu bağlam, düzenli, mekanistik ve bir örnek evren düşüncesine yaslanan modern bilimsel dünya görüşünden kaynaklanır. Psikiyatri, anlamsızlık salgınına karşı bir reçete sunmaz ve insan gelişiminin modern süreçlerle akamete uğratılması konusunda da önerebileceği bir formül yoktur. </p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<p>Hakikat, milyonlarca yıl önce yeryüzüne düşmüş ve parçalara ayrılmış kocaman bir elmas gibidir. Her bir parçayı bulan, elmasın o parçadan ibaret olduğunu zanneder. Oysa hakikat daha büyüktür, bütündedir. Bilimlerin tümünde olduğu gibi psikolojide de hakikatin sadece bir kısmına hâkimiz. Disiplinlerin birbirinden öğrenecek çok şeyinin olduğu günümüzde, "ya bilim, ya maneviyat" tarzı bir indirgemecilik yerine, "hem o, hem de o" yaklaşımı daha doğru görünmekte. Ruhun bilgeliğine ulaşmak için, bilgeliğin ruhuna nüfuz etmemiz gerek. Unutmamalı ki "Her arayan bulamaz, bulanlar sadece arayanlardır."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Kemal Sayar</span>
+									<span>Sufi Psikolojisi</span>
+								</h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+					<li>
+						<div class="bk-book book-3">
+							<div class="bk-front">
+								<div class="bk-cover-back"></div>
+								<div class="bk-cover">
+									<h2>
+										<span>Hasan Ali Toptaş</span>
+										<span>Heba</span>
+									</h2>
+								</div>
+							</div>
+							<div class="bk-page">
+								<div class="bk-content bk-content-current">
+									<h3>Anahtar</h3>
+									<p>Ziya kapıyı kilitledi ve elindeki anahtarı cebine koymadan, hızlı adımlarla asansöre doğru yürüdü. Koridorda bir tuhaflık vardı o sırada, ışıklar tavandan sarkan sarı toplar halinde her zamanki gibi sıra sıra yanıyordu ama ortalık biraz karanlıktı sanki. Hatta insanı hayrete düşürecek kadar da sessizdi.</p>
+								</div>
+								<div class="bk-content">
+									<p>Ne var ki pek uzun sürmedi, alt kattaki o kahverengi çelik kapılardan biri güm diye çarpılınca aniden yok oldu bu sessizlik. Kimin tarafından yapıldığı bilinmeyen tatlı bir şaka hızıyla, koridora kattığı genişliği de yanına alarak, neredeyse Ziya'ya göründüğü anda yok oldu. Hemen ardından, koca ağızlı bir çocuk sesi yükseldi merdiven boşluğundaki alacakaranlığın içinden.</p>
+								</div>
+								<div class="bk-content">
+									<p>Onun ardından simsiyah bir kadın çığlığı, onun ardından bir elektrik süpürgesinin oradan oraya gezinen sinir bozucu zırıltısı, onun ardından da nerede vınladığı kestirilemeyen tozlu bir matkap sesi yükseldi. Derken, duvarların gerisindeki duvarların gerisinden gelen gürültüler de katıldı bunlara. Hatta insana şehrin görüntülerini hatırlatan kadınlardan daha kalın uğultular da katıldı.</p>
+								</div>
+							</div>
+							<div class="bk-back">
+								<img src="images/3.png" alt="cat"/>
+								<p>Heba bir çocukluk hatası gibi unutulan insanlığımızın, vicdan denen anahtarın, bir sınır boyunda gizlenenlerin, bir ömrü minnetle kaybedenlerin romanı. Heba; delinmiş bir uykunun ve onu bulanların hikâyesi..."Heba muhteşem ve merak uyandırıcı bir roman. Sanki dünyanın hiç bilmediğim bir yerine götürdü beni ve aslında her şeyin tanıdık olduğunu gösterdi aşk her yerde aşk, dost her yerde dost, ihanet her yerde ihanet."</p>
+							</div>
+							<div class="bk-right"></div>
+							<div class="bk-left">
+								<h2>
+									<span>Hasan Ali Toptaş</span>
+									<span>Heba</span>
+								</h2>
+							</div>
+							<div class="bk-top"></div>
+							<div class="bk-bottom"></div>
+						</div>
+					</li>
+				
+				</ul>
+				<div class="bookshelf"></div>
+			</div>
+		</div><!-- /container -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/books2.js"></script>
+		<script>
+			$(function() {
+
+				Books.init();
+
+			});
+		</script>
+	</body>
+</html>
